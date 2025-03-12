@@ -57,7 +57,7 @@ const Footer = () => {
                 <div>
                     <ul className="flex flex-col justify-center  gap-4">
                         {
-                            navLinks.map((i, idx) => <li><Link to={i.path}>{i.name}</Link></li>)
+                            navLinks.map((i, idx) => <li key={idx}><Link to={i.path}>{i.name}</Link></li>)
                         }
                     </ul>
                 </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <h1 className="text-2xl font-semibold mb-3">Be Part Of Us</h1>
                 <ul className="flex flex-col justify-center  gap-4">
                     {
-                        partUsLinks.map((i, idx) => <li><Link to={i.path}>{i.name}</Link></li>)
+                        partUsLinks.map((i, idx) => <li key={idx}><Link to={i.path}>{i.name}</Link></li>)
                     }
                 </ul>
             </div>
