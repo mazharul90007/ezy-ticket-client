@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you can integrate with backend API or send an email
-    console.log('Form Data:', formData);
+    console.log('Form Data Information:', formData);
     setIsSubmitted(true);
     setFormData({ name: '', email: '', message: '' });
   };
