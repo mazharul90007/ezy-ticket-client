@@ -6,6 +6,7 @@ const Home = () => {
       <button className="btn btn-secondary">Go to Login</button>
       <button className="btn btn-secondary">Go to HomePage</button>
       <button className="btn btn-secondary">Go to New Button</button>
+      <p> lorem ipsum etc etc etc etc</p>
     </div>
   );
 };
